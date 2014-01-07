@@ -1,0 +1,19 @@
+@media screen and (min-width:780px){
+
+
+	body
+	{
+		
+	}
+	.item-tabs .tabs
+	{
+		display: inline-block;
+		vertical-align: top;
+		border:1px dotted blue;
+		margin: 0 2em;
+		width: 	25%;
+
+	}
+
+
+}

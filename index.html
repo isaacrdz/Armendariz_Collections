@@ -2,7 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+
+    
 	<title>Armendaris Collections</title>
 </head>
 <body>
@@ -11,25 +20,68 @@
 	
 <header>
 	<nav>
-		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Nosotros</a></li>
-			<li><a href="#">Colecciones</a></li>
-			<li><a href="#">Contacto</a></li>
-		</ul>
+		<div class='rmm' data-menu-style = "minimal">
+            <ul>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about-me'>About me</a></li>
+                <li><a href='#gallery'>Gallery</a></li>
+                <li><a href='#blog'>Blog</a></li>
+                <li><a href='#links'>Links</a></li>
+                <li><a href='#sitemap'>Sitemap</a></li> 
+            </ul>
+        </div>
 	</nav>
 </header>
-<section class="slider-box">Aqui va el slider</section>
+<section class="slider-box">
+
+<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/banner-1.jpg" data-thumb="img/banner-1.jpg" alt="Anillo de Compromiso" />
+                <a href="#"><img src="img/banner-2.jpg" data-thumb="img/banner-2" alt="" title="This is an example of a caption" /></a>
+                <img src="img/banner-1.jpg" data-thumb="img/banner-1.jpg"alt="" data-transition="slideInLeft" />
+                <img src="img/banner-1.jpg" data-thumb="img/banner-1.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+</section>
+
+<hr>
 <section class="item-tabs">
-	<article class="tabs">Estos son tabs</article>
-	<article class="tabs">Estos son tabs</article>
-	<article class="tabs">Estos son tabs</article>
+	<article class="tabs">
+		<figure>
+			<img src="img/anillo-compromiso-tabs.jpg" alt="">
+		<figure>
+		<figcaption>Anillo de compromiso</figcaption>
+	</article>
+	<article class="tabs">
+		<figure>
+			<img src="img/anillo-compromiso-tabs.jpg" alt="">
+		<figure>
+		<figcaption>Anillo de Diseñador</figcaption>
+	</article>
+	<article class="tabs">
+		<figure>
+			<img src="img/anillo-compromiso-tabs.jpg" alt="">
+		<figure>
+		<figcaption>Lo nuevo</figcaption>
+	</article>
+	
 </section>
 <aside>Este es un aside</aside>
 
-<footer>Este es el footer</footer>
+<footer>
+	<p>Armendariz Collection ®</p>
+</footer>
 
 </section>
-	
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 </body>
 </html>
