@@ -3,18 +3,80 @@
 	padding: 0;
 	margin: 0;
 }
+
 aside {
 	width:100%;
 	border: 1px dotted red ;
 	margin: 0.5em auto;
 	box-sizing:border-box;
 }
+aside h3
+{
+	text-align: center;
+	background: #4C4C4C;
+	color: white;
+	font-weight: normal;
+	padding: 0.5em;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+aside ul
+{
+	list-style-type: none;
+	text-align: center;
+
+	
+}
+.promo
+{
+border: 1px solid red;
+padding:3em 2em;
+box-sizing:border-box;
+
+}
+
+.promo p
+{
+	margin-bottom: 1em;		
+
+}
+.img-border
+{
+	border: 4px solid #cccccc;
+}
+
+.img-small
+	{
+		width: 200px;
+	}
+
+aside#aside ul li a
+{
+	border-bottom: 1px solid #4c4c4c;
+	color: #6e6e6e;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 0.5em;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+aside ul li{
+	padding: 0.3em;
+}
 body
 {
 	padding: 0;
 	width: 100%;
-	font-family: arial;
+	font-family: sans-serif;
 	text-align: center;
+	background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#eeeeee), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #eeeeee 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #eeeeee 1%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #eeeeee 1%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom, #eeeeee 1%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 footer 
@@ -35,22 +97,64 @@ footer
 	padding:0 ;
 }
 
+.item-tabs-productos
+{
+	margin: 0.5em;
+	padding:0 ;
+}
 .item-tabs .tabs
 {
-	border:1px dotted red;
+	
 	margin: 0.5em auto;
 	color:#1e1e1e;
 }
 
+.item-tabs .tabs-productos
+{
+	
+	margin: 0.5em auto;
+	color:#1e1e1e;
+}
+
+.fleft {float: left;}
+
+
+div figure .logo
+{
+	width: 250px ;
+
+
+}
 .item-tabs .tabs figure img
 {
 	max-width: 780px;
 	width: 100%;
 }
+
+.item-tabs-productos .tabs-productos figure img
+{
+	max-width: 780px;
+	width: 100%;
+	border: 3px solid #cccccc;
+	box-sizing:border-box;
+}
+
+.item-tabs-productos .tabs-productos figcaption 
+{	
+		
+}
+
+.item-tabs-productos .tabs-productos figcaption ul
+{	
+	
+	list-style-type: none;
+	
+
+}
+
 .contenido
 {
-	width: 70%;
-	border: 2px solid black ;
+	width: 80%;	
 	margin: 0 auto;
 	padding: 0.5em;
 }
@@ -58,8 +162,9 @@ footer
 .slider-box
 {
 	width:100%;
-	border: 2px solid orange ;
+	
 	margin: 1em auto;
 	box-sizing:border-box;
 }
 
+.txtleft { text-align: left;}

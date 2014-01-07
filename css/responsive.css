@@ -1,19 +1,108 @@
 @media screen and (min-width:780px){
 
+div {
+	
+}
+div figure .logo
+{
+	width: 250px ;
+	display: inline;
+	
+	
 
+}
+
+aside
+{
+	display: inline-block; 
+	vertical-align: top;
+	width: 30%;
+	padding: 2em;
+	float: right;
+	box-sizing:border-box;
+}
+
+aside ul 
+{
+	text-align: left;
+	border: 1px solid #cccccc;
+	
+
+
+}
 	body
 	{
 		
 	}
+
+	.item-tabs 
+	{
+		padding: 0;
+		margin: 0;
+
+	}
+
 	.item-tabs .tabs
 	{
 		display: inline-block;
 		vertical-align: top;
 		border:1px dotted blue;
-		margin: 0 2em;
+		padding: 2.5em;
 		width: 	25%;
 
 	}
+
+	.item-tabs-productos
+	{
+		
+		width: 68%;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px dotted black;
+		padding:0.5em;
+		box-sizing:border-box;
+
+
+
+	}
+		.item-tabs-productos .tabs-productos
+	{
+		display: inline-block;
+		vertical-align: top;
+		border:1px dotted blue;
+		margin: 0 ;
+		max-width: 	100px;
+		width: 100%;
+		padding: 3em;
+
+	}
+
+	.item-tabs-productos .tabs-productos figcaption 
+{	
+	font-size: 10px;
+	list-style-type: none;
+	text-align: left;
+	padding:  0 ;
+	border: 1px solid black;
+	width: 120px;
+	color: #262626;
+	box-sizing:border-box;
+
+}
+
+.item-tabs-productos .tabs-productos figcaption ul
+{	
+	
+	list-style-type: none;
+	
+
+}
+
+.dline
+{
+	border-bottom:  1px double #cccccc;
+	
+}
 
 
 }
