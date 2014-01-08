@@ -4,6 +4,12 @@
 	margin: 0;
 }
 
+div#logo{
+	
+	padding: 1em;
+	border-bottom: 1 px
+} 
+
 aside {
 	width:100%;
 	border: 1px dotted red ;
@@ -29,7 +35,7 @@ aside ul
 }
 .promo
 {
-border: 1px solid red;
+border: 1px solid green;
 padding:3em 2em;
 box-sizing:border-box;
 
@@ -47,7 +53,8 @@ box-sizing:border-box;
 
 .img-small
 	{
-		width: 200px;
+		max-width: 400px;
+		width: 100%;
 	}
 
 aside#aside ul li a
