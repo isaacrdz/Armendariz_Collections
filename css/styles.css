@@ -11,6 +11,14 @@ div#logo{
 	
 } 
 
+#item-top a
+{
+	clear: both;
+	float: right;
+	color: #4c4c4c;
+	text-align: none;
+}
+
 aside {
 	width:100%;
 	border: 1px solid #cccccc ;
