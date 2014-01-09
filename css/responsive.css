@@ -1,10 +1,6 @@
 @media screen and (min-width:780px){
 
-body {
 
-	background: red;
-	
-}
 
 
 .promo
@@ -74,8 +70,8 @@ aside article figure img
 	{
 		
 		width: 65%;
-	float: left;
-		
+		float: left;
+		padding: 0;		
 		border: 1px dotted black;
 		padding:1em;
 		box-sizing:border-box;
@@ -89,10 +85,17 @@ aside article figure img
 		display: inline-block;
 		vertical-align: top;
 		border:1px dotted blue;
-		margin: 0 ;
-		max-width: 	100px;
+		
+		max-width: 	150px;
 		width: 100%;
-		padding: 2em;
+		padding: 0.5em;
+
+	}
+
+		.item-tabs-productos .tabs-productos figure img
+	{
+		
+	
 
 	}
 
@@ -103,7 +106,8 @@ aside article figure img
 	text-align: left;
 	padding:  0 ;
 	border: 1px solid black;
-	width: 120px;
+	max-width: 150px;
+	width: 100%;
 	color: #262626;
 	box-sizing:border-box;
 
@@ -130,9 +134,44 @@ aside article figure img
 @media  (min-width: 900px) {
 
 
-body{background: blue;}
 
 
+.item-tabs-productos
+	{
+		padding:0;
+	}
+
+	.item-tabs-productos .tabs-productos
+	{
+		display: inline-block;
+		vertical-align: top;
+		border:1px dotted blue;
+		margin: 0 ;
+		max-width: 	190px;
+		width: 100%;
+		padding: 1em;
+
+	}
+
+		.item-tabs-productos .tabs-productos figcaption 
+{	
+	font-size: 10px;
+	list-style-type: none;
+	text-align: left;
+	padding:  0.5em ;
+	border: 1px solid black;
+	max-width: 190px;
+	width: 100%;
+	color: #262626;
+	box-sizing:border-box;
+
+}
+
+	.item-tabs-productos .tabs-productos figure img
+	{
+		max-width: 
+
+	}
 
 .item-tabs .tabs 
 	{
@@ -152,10 +191,7 @@ body{background: blue;}
 	}
 
 @media  (min-width: 1100px) {
-body
-{
-	background: orange;
-}
+
 .item-tabs .tabs 
 	{
 		display: inline-block;
@@ -171,6 +207,30 @@ body
 	{
 		max-width:200px;
 		width:100%;
+	}
+
+	.item-tabs-productos
+	{
+		padding:0;
+	}
+
+	.item-tabs-productos .tabs-productos
+	{
+		display: inline-block;
+		vertical-align: top;
+		border:1px dotted blue;
+		margin:0 ;
+		max-width: 	170px;
+		width: 100%;
+		padding: 0.5em 0;
+
+	}
+
+	.item-tabs-productos .tabs-productos figure img
+	{
+		max-width: 180px;
+		width: 100%;
+
 	}
 
 
