@@ -211,3 +211,25 @@ div figure .logo
 }
 
 .txtleft { text-align: left;}
+
+.fade {
+    opacity: 1;
+    filter: alpha (opacity=10);
+
+ -ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}    
+
+.fade:hover{
+    opacity: 0.7;
+    filter: alpha (opacity=7);
+   -ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+     
+}
