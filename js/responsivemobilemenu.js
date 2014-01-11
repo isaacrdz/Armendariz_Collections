@@ -73,7 +73,7 @@ function adaptMenu() {
 	$('.rmm').each(function() {
 			var $width = $(this).css('max-width');
 			$width = $width.replace('px', ''); 
-			if ( $(this).parent().width() < $width*1.05 ) {
+			if ( $(this).parent().width() < $width*0.999 ) {
 				$(this).children('.rmm-main-list').hide(0);
 				$(this).children('.rmm-toggled').show(0);
 			}

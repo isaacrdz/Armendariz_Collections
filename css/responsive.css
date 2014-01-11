@@ -1,38 +1,46 @@
 @media screen and (min-width:780px){
 
-div {
-	
+.promo
+{
+
+padding:3em 2em;
+box-sizing:border-box;
+
 }
 div figure .logo
 {
 	width: 250px ;
-	display: inline;
-	
-	
+	display: block;
 
 }
 
 aside
 {
-	display: inline-block; 
-	vertical-align: top;
-	width: 30%;
-	padding: 2em;
+	
+	width: 31%;	
 	float: right;
-	box-sizing:border-box;
+	box-sizing:border-box;	
+	float: right;
+	padding:0.5em 1em;
+	border-radius: 10px;
+	margin-top: 0.5em;
 }
-
+nav
+{
+	clear: both;
+}
 aside ul 
 {
 	text-align: left;
-	border: 1px solid #cccccc;
-	
-
-
+	border-bottom: 1px solid #cccccc;
+	font-size: 12px;
 }
-	body
+
+aside article figure img
+
 	{
-		
+		max-width: 200px;
+		width:100%;
 	}
 
 	.item-tabs 
@@ -42,38 +50,50 @@ aside ul
 
 	}
 
-	.item-tabs .tabs
+	.item-tabs .tabs 
 	{
 		display: inline-block;
 		vertical-align: top;
-		border:1px dotted blue;
-		padding: 2.5em;
-		width: 	25%;
+		
+		padding: 0.5em 0;
+		box-sizing:border-box;
 
+			
+	} 
+
+	.item-tabs .tabs figure img
+	{
+		max-width:100px;
+		width:100%;
 	}
-
 	.item-tabs-productos
 	{
 		
-		width: 68%;
-		display: inline-block;
-		vertical-align: top;
-		border: 1px dotted black;
-		padding:0.5em;
+		width: 65%;
+		float: left;
+		padding: 0;				
 		box-sizing:border-box;
-
-
+		
 
 	}
+
+	
+
 		.item-tabs-productos .tabs-productos
 	{
 		display: inline-block;
-		vertical-align: top;
-		border:1px dotted blue;
-		margin: 0 ;
-		max-width: 	100px;
+		vertical-align: top;		
+		max-width: 	150px;
 		width: 100%;
-		padding: 3em;
+		padding: 0.5em;
+
+	}
+
+		.item-tabs-productos .tabs-productos figure 
+	{
+		
+
+	
 
 	}
 
@@ -83,8 +103,9 @@ aside ul
 	list-style-type: none;
 	text-align: left;
 	padding:  0 ;
-	border: 1px solid black;
-	width: 120px;
+	
+	max-width: 150px;
+	width: 100%;
 	color: #262626;
 	box-sizing:border-box;
 
@@ -100,9 +121,125 @@ aside ul
 
 .dline
 {
-	border-bottom:  1px double #cccccc;
+	border-bottom:  1px solid #6e6e6e;
+	margin: 0.5em;
+	color: #6e6e6e;
+	font-weight: normal;
+
 	
 }
+
+
+}
+
+
+@media  (min-width: 900px) {
+
+
+
+
+.item-tabs-productos
+	{
+		padding:0;
+	}
+
+	.item-tabs-productos .tabs-productos
+	{
+		display: inline-block;
+		vertical-align: top;
+		
+		margin: 0 ;
+		max-width: 	190px;
+		width: 100%;
+		padding: 1em;
+
+	}
+
+		.item-tabs-productos .tabs-productos figcaption 
+{	
+	font-size: 10px;
+	list-style-type: none;
+	text-align: left;
+	padding:  0.5em ;
+	
+	max-width: 190px;
+	width: 100%;
+	color: #262626;
+	box-sizing:border-box;
+
+}
+
+	.item-tabs-productos .tabs-productos figure img
+	{
+		max-width: 
+
+	}
+
+.item-tabs .tabs 
+	{
+		display: inline-block;
+		vertical-align: top;
+		
+		padding: 0.5em 0;
+		box-sizing:border-box;
+
+			
+	} 
+
+.item-tabs .tabs figure img
+	{
+		max-width:170px;
+		width:100%;
+	}
+
+@media  (min-width: 1100px) {
+
+.item-tabs .tabs 
+	{
+		display: inline-block;
+		vertical-align: top;
+		
+		padding: 0.5em 0;
+		box-sizing:border-box;
+
+			
+	} 
+
+.item-tabs .tabs figure img
+	{
+		max-width:200px;
+		width:100%;
+	}
+
+	.item-tabs-productos
+	{
+		padding:0.1em 0.3em;
+		box-sizing:border-box;
+		border-radius: 10px;
+	}
+
+	.item-tabs-productos .tabs-productos
+	{
+		display: inline-block;
+		vertical-align: top;
+		
+		margin:0.5em 0 ;
+		max-width: 	170px;
+		width: 100%;
+		padding: 0.5em 0.5em;
+
+	}
+
+	.item-tabs-productos .tabs-productos figure img
+	{
+		max-width: 180px;
+		width: 100%;
+
+	}
+
+
+
+
 
 
 }
